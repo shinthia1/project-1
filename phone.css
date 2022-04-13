@@ -1,0 +1,101 @@
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+        }
+
+        header{
+            padding: 2rem;
+        }
+
+    section{
+        padding: 2rem; 
+    }
+    
+    .home{
+        background-position: left;
+    }
+}
+
+
+
+
+
+@media(max-width:768px){
+    header .baricn{
+         display: block;
+    }
+    
+    header .naver {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #eee;
+        border-top: 1rem solid rgba(0 0 0 1 );
+        /* display: none; */
+    }
+ 
+    header .baricn:hover ~ header .naver{
+ 
+    }
+ 
+ 
+    header .naver a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background-color:#fff;
+        border: .1rem solid rgba(0 0 0 1 );
+        display: block;
+     
+     } 
+     
+     .home .content h3{
+         font-size: 5rem;
+     }
+
+
+     .home .content span{
+        font-size: 2.5rem;
+    }
+
+
+    .icons .iconss h3{
+        font-size: 2rem;
+    }
+    
+    
+    
+    .icons .iconss h3{
+        font-size: 1.7rem;
+    }
+ }
+
+
+
+
+ 
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+        } 
+    
+     
+    
+    .heading{
+        font-size: 3rem;
+    }
+
+
+    .home{
+        margin:500rem 0;
+    }
+}
+
+
+
+
+
+
+
